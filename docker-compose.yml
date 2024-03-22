@@ -1,0 +1,13 @@
+services:
+  rasa-bot:
+    container_name: rasa-escomio-app
+    build: .
+    image: rasa-escomio:v1
+    networks:
+      - internalnet
+    ports:
+      - 6005:8080
+
+networks:
+  internalnet:
+    driver: bridge

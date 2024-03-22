@@ -1,0 +1,215 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: saludar
+  examples: |
+    - hey
+    - hola
+    - hola
+    - hola allí
+    - buenos días
+    - buenas noches
+    - moin
+    - hola allí
+    - ¡vamos!
+    - hola amigo
+    - buenos días
+    - buenas tardes
+    - buenas tardes
+
+- intent: despedir
+  examples: |
+    - adiós
+    - adiós
+    - nos vemos luego
+    - buenas noches
+    - adiós
+    - adiós
+    - que tengas un buen día
+    - nos vemos por ahí
+    - adiós adiós
+    - nos vemos luego
+
+- intent: afirmar
+  examples: |
+    - sí
+    - s
+    - de hecho
+    - por supuesto
+    - eso suena bien
+    - correcto
+
+- intent: negar
+  examples: |
+    - no
+    - n
+    - nunca
+    - no lo creo
+    - no me gusta eso
+    - de ninguna manera
+    - no realmente
+
+- intent: buen_humor
+  examples: |
+    - perfecto
+    - genial
+    - asombroso
+    - sintiéndome como un rey
+    - maravilloso
+    - me siento muy bien
+    - estoy genial
+    - estoy increíble
+    - voy a salvar el mundo
+    - súper emocionado
+    - extremadamente bien
+    - así así perfecto
+    - tan bueno
+    - tan perfecto
+
+- intent: humor_triste
+  examples: |
+    - mi día fue horrible
+    - estoy triste
+    - no me siento muy bien
+    - estoy decepcionado
+    - súper triste
+    - estoy tan triste
+    - triste
+    - muy triste
+    - infeliz
+    - no está bien
+    - no muy bien
+    - extremadamente triste
+    - tan triste
+
+- intent: desafio_bot
+  examples: |
+    - ¿eres un bot?
+    - ¿eres humano?
+    - ¿estoy hablando con un bot?
+    - ¿estoy hablando con un humano?
+
+- intent: bot_identity
+  examples: |
+    - cual es tu funcion?
+    - ¿cual es tu funcion?
+    - ¿Cual es tu funcion?
+    - Cual es tu funcion?  
+    - que es escomio?
+    - ¿que es escomio?
+    - ¿Que es escomio?
+    - Que es escomio?
+    - que puedes hacer?
+    - ¿que puedes hacer?
+    - ¿Que puedes hacer?
+    - Que puedes hacer?
+    - cual es tu proposito?
+    - ¿cual es tu proposito?
+    - ¿Cual es tu proposito?
+    - Cual es tu proposito?
+    - para que fuiste creado?
+    - ¿para que fuiste creado?
+    - ¿Para que fiuste creado?
+    - Para que fiuste creado?
+    - que servicios ofreces?
+    - ¿que servicios ofreces?
+    - Que servicios ofreces?
+    - ¿Que servicios ofreces?
+    - en que me puedes ayudar?
+    - ¿en que me puedes ayudar?
+    - En que me puedes ayudar?
+    - ¿En que me puedes ayudar?
+    - Que tipo de consultas resuelves?
+    - ¿Que tipo de consultas resuelves?
+    - que tipo de consultas resuelves?
+    - ¿que tipo de consultas resuelves?
+    
