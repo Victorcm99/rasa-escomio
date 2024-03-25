@@ -58,7 +58,7 @@ responses:
   - text: "Hola yo soy ESCOMIO y soy un chatbot creado para ayudar a la comunidad de la ESCOM, brindando ayuda sobre informacion referente al Departamento de Gestion Escolar"
 
   utter_regular:
-  - text: "Si eres un alumno con 1 o mas adeudos, sin dictamen y sin unidades de aprendizaje desfasadas tu situacion actual es alumno irregular"
+  - text: "Si no tienes adeudos tu situacion actual es alumno regular. \nSi eres un alumno con 1 o mas adeudos, sin dictamen y sin unidades de aprendizaje desfasadas tu situacion actual es alumno irregular"
 
   utter_constancia:
   - text: "Las constancias de estudios, inscripcion y para beca pueden ser solicitadas a traves del SAES. Los pasos que desbes de seguir son:
