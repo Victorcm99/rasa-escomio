@@ -16,6 +16,11 @@ intents:
   - buen_humor
   - humor_triste
   - desafio_bot
+  - regular
+  - constancia
+  - carga_minima
+  - carga_media
+
 
 responses:
   utter_greet:

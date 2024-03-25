@@ -221,6 +221,7 @@ nlu:
     - que es ser irregular?
     - cual es mi sutuacion si debo una materia?
     - si debo una materia soy irregular?
+    - como se si soy irregular?
 
 - intent: constancia
   examples: |
