@@ -22,7 +22,7 @@ responses:
   - text: "Hey! How are you?"
 
   utter_saludo:
-    - text: "Hola!"
+  - text: "Hola!"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -35,22 +35,38 @@ responses:
   - text: "Great, carry on!"
 
   utter_feliz:
-    - text: "Excelete!"
+  - text: "Excelete!"
 
   utter_goodbye:
   - text: "Bye"
 
   utter_despedida:
-    - text: "Adios"
+  - text: "Adios"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
   utter_soyunbot:
-    - text: "Soy ESCOMIO un chatbot, creado con rasa Rasa."
+  - text: "Soy ESCOMIO un chatbot, creado con rasa Rasa."
 
   utter_identity:
-    - text: "Hola yo soy ESCOMIO y soy un chatbot creado para ayudar a la comunidad de la ESCOM, brindando ayuda sobre informacion referente al Departamento de Gestion Escolar"
+  - text: "Hola yo soy ESCOMIO y soy un chatbot creado para ayudar a la comunidad de la ESCOM, brindando ayuda sobre informacion referente al Departamento de Gestion Escolar"
+
+  utter_regular:
+  - text: "Si eres un alumno con 1 o mas adeudos, sin dictamen y sin unidades de aprendizaje desfasadas tu situacion actual es alumno irregular"
+
+  utter_constancia:
+  - text: "Las constancias de estudios, inscripcion y para beca pueden ser solicitadas a traves del SAES. Los pasos que desbes de seguir son:
+    \n 1. Ingresar al SAES \n 2. En el apartado de alumno debes buscar la seccion de Tramites y dar click en Solicitud \n 3. Seleccionar el tipo de constancia que deseas
+    \n 4. Una vez solicitada la constancia desde el mismo SAES puedes dar seguimiento a tu tramite \n 5. Una vez listo podras descargarlo en formato PDF desde el SAES \n Espero esta informacion te sirva "
+
+  utter_cargamin:
+  - text: "El numero de creditos para alcanzar la carga minima es diferente para cada programa academico.
+    \n ISC 09: 19 creditos\n ISC 20: 28 creditos\n IIA: 28 creditos\n LCD: 28 creditos\n Por lo que deberas revisar la suma de creditos de las materias y ver si alcanza los creditos correspondientes para cada programa academico"
+
+  utter_cargamed:
+  - text: "El numero de creditos para alcanzar la carga media es diferente para cada programa academico.
+    \n ISC 09: 31 creditos\n ISC 20: 55.5 creditos\n IIA: 55.5 creditos\n LCD: 55.5 creditos\n Por lo que deberas revisar la suma de creditos de las materias y ver si alcanza los creditos correspondientes para cada programa academico"
 
 session_config:
   session_expiration_time: 60

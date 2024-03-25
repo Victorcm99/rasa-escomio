@@ -11,7 +11,8 @@ ENV HOME=/app
 COPY . .
 
 # train a new rasa model
-RUN rasa train nlu
+#RUN rasa train nlu
+RUN rasa train
 
 # set the user to run, don't run as root
 USER 1001

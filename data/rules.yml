@@ -24,5 +24,25 @@ rules:
 
 - rule: Say your function
   steps:
-    - intent: bot_identity
-    - action: utter_identity
+  - intent: bot_identity
+  - action: utter_identity
+
+- rule: Pasos constancia
+  steps:
+  - intent: constancia
+  - action: utter_constancia
+
+- rule: Info regularidad
+  steps:
+  - intent: regular
+  - action: utter_regular
+
+- rule: Info carga minima
+  steps:
+  - intent: carga_minima
+  - action: utter_cargamin
+
+- rule: Info carga media
+  steps:
+  - intent: carga_media
+  - action: utter_cargamed

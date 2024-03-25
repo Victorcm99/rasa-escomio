@@ -212,4 +212,53 @@ nlu:
     - ¿Que tipo de consultas resuelves?
     - que tipo de consultas resuelves?
     - ¿que tipo de consultas resuelves?
+
+- intent: regular
+  examples: |
+    - como se si soy regular?
+    - que pasa si debo una materia?
+    - si debo una materia soy regular?
+    - que es ser irregular?
+    - cual es mi sutuacion si debo una materia?
+    - si debo una materia soy irregular?
+
+- intent: constancia
+  examples: |
+    - como solicito una constancia de estudios?
+    - como solicito una constancia de inscripcion?
+    - como solicito una constancia para becas?
+    - necesito una constancia de estudios
+    - necesito una constancia de inscripcion
+    - necesito una constancia para becas
+    - quiero una constancia de estudios
+    - quiero una constancia de inscripcion
+    - quiero una constancia para becas
+    - como pido una constancia de estudios
+    - como pido una constancia de inscripcion
+    - como pido una constancia para beca
+
+- intent: carga_minima
+  examples: |
+    - cual es la carga minima?
+    - como se si tengo carga minima?
+    - cuantos creditos tiene la carga minima?
+    - creditos carga minima
+    - cuanto es carga minima?
+    - cuantas materias necesito para alcanzar la carga minima?
+    - numero de materias para la carga minima
+    - como se si alcanzo la carga minima?
+
+- intent: carga_media
+  examples: |
+    - cual es la carga media?
+    - como se si tengo carga media?
+    - cuantos creditos tiene la carga media?
+    - creditos carga media
+    - cuanto es carga media?
+    - cuantas materias necesito para alcanzar la carga media?
+    - numero de materias para la carga media
+    - como se si alcanzo la carga media?
+
+    
+    
     
