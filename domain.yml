@@ -46,7 +46,7 @@ responses:
   - text: "Bye"
 
   utter_despedida:
-  - text: "Adios"
+  - text: "Adios!!! espero haberte ayudado"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
