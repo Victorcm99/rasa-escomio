@@ -6,7 +6,7 @@ services:
     networks:
       - internalnet
     ports:
-      - 6005:8080
+      - 6005:6005
 
 networks:
   internalnet:
